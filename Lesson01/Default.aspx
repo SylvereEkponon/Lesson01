@@ -8,7 +8,7 @@
 
 
 <div>
-    <p>Hello there!</p>
+    <p>Hello <asp:Label ID="userName" runat="server" />!</p>
     <p>
     The time is now:
     <asp:Label ID="myTimeLabel" runat="server" />

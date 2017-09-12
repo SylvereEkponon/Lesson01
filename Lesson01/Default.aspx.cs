@@ -22,6 +22,7 @@ namespace Lesson01
         protected void Page_Load(object sender, EventArgs e)
         {
             myTimeLabel.Text = DateTime.Now.ToString();
+            userName.Text = Environment.UserName.ToString();
         }
     }
 }
