@@ -7,13 +7,13 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
 
-<div>
+<%--<div>
     <p>Hello <asp:Label ID="userName" runat="server" />!</p>
     <p>
     The time is now:
     <asp:Label ID="myTimeLabel" runat="server" />
     </p>
-</div>
+</div>--%>
 
 
 </asp:Content>
